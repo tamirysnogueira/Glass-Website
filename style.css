@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-light-purple: #893ac6;
+
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, rgba(70, 33, 131, 0.9), rgba(154, 85, 179, 0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #745c97;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#glass {
+    background-color: rgba(254, 254, 254, 0.3);
+    min-height: 80vh;
+    width: 60%;
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(1rem);
+    display: flex;
+
+}
+
+#buttom-1,
+#buttom-2 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to left bottom, rgba(158,115,228,0.5),rgba(196,139,212,0.6));
+    position: absolute;
+    border-radius: 300px;
+
+}
+
+
+
+#buttom-1 {
+    left: 8%;
+    bottom: 10%;
+}
+
+#buttom-2 {
+    right: 15%;
+    top: 4%;
+
+}
+
+#me {
+    text-align: center;
+    margin: 2.5rem;
+    line-height: 1.4rem;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    background: linear-gradient(to left bottom, rgba(254, 254, 254, 0.4),rgba(251,223,240,0.4));
+    border-radius: 2rem;
+    
+}
+
+#page-games {
+    flex: 2;
+}
+
+
+
+#me img {
+    width: 110px;
+    border-radius: 100%;
+    margin-bottom: 0.5rem;
+}
+
+#name {
+    color: #6d4ba7;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#atribute {
+    font-size: 0.9rem;
+}
+
+#others img {
+    width: 32px;
+    
+} 
+
+#others * {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    transition: 0.5s;
+}
+
+#others a {
+    text-decoration: none;
+    color: #745c97;
+    
+}
+
+#others *:hover {
+    transform: scale(1.1);
+}
+
+
+#joy img {
+    width: 64px;
+    transition: 1s;
+}
+
+#joy h3 {
+    color: #e8e8e8;
+}
+
+#joy {
+    background: linear-gradient(to right bottom, rgba(70, 33, 131, 0.6), rgba(154, 85, 179, 0.7));
+    width: 60%;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#joy img:hover {
+    transform: rotate(180deg);
+}
+
+#joy:hover {
+    transform: scale(1.1);
+}
+
+#search {
+    margin: 2rem 3rem;
+}
+
+h1 {
+    color: #6d4ba7;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#input-search {
+    background: linear-gradient(to right, rgba(234,205,247,0.9), rgba(254, 254, 254, 0.8));
+    border: none;
+    border-radius: 1rem;
+    width: 50%;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    outline: none;
+}
+
+#games {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 2rem;
+
+}
+
+.cards img {
+    border-radius: 20px;
+    width: 80px;
+}
+
+.cards {
+    display: flex;
+    margin: 1.5rem;
+    background: linear-gradient(to left top, rgba(255,255,255, 0.8), rgba(255,255,255, 0.5));
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.27);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+.porcentage {
+    color: var(--color-light-purple);
+}
+
+.progress-bar {
+    background: linear-gradient(to right top, rgba(70, 33, 131, 0.6), rgba(154, 85, 179, 0.7));
+    width: 45%;
+    height: 10%;
+    border-radius: 1rem;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.progress-bar::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236,236,236);
+    position: absolute;
+    left: 60%;
+
+}
+
+.cards-info * {
+    margin-bottom: 7px;
+}
+
+.cards-info {
+    height: 10%;
+    
+}
+
+.card-margin {
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
